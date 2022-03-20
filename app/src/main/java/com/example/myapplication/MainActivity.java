@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
         txv= (TextView) findViewById(R.id.txv);  // 根据ID找到对应的text对象
         txv.setTextSize(++size);       // 修改对象的字符大小-size
     }
+    //在test01上修改
     public void smaller(View v) {     // 按钮对应的 onclick 响应
         TextView txv;
         txv = (TextView) findViewById(R.id.txv);  // 根据ID找到对应的text对象
